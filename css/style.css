@@ -4,5 +4,23 @@ body {
 }
 
 .padrao {
-    margin: 0.4em 0.5em;
+    margin: 0.5em 2em;
+}
+
+.imagem-padrao {
+    width: 540px;
+    padding: 0.5em;
+}
+
+.imagem-padrao p {
+    margin: 0.5em 0.5em;
+    padding: 0 1em;
+}
+
+.imagem-padrao:first-of-type {
+    margin-top: 1.4em; 
+}
+
+.imagem-padrao:last-of-type {
+    margin-bottom: 7em; 
 }
