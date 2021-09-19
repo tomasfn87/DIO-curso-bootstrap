@@ -10,10 +10,11 @@ body {
 .imagem-padrao {
     width: 540px;
     padding: 0.5em;
+    height: 95vh;
 }
 
 .imagem-padrao-titulo {
-    margin: 0 1em;
+    margin: 2em 1em 0.8em 1em;
     font-family: monospace;
 }
 
@@ -22,10 +23,7 @@ body {
     padding: 0 1em;
 }
 
-.imagem-padrao:first-of-type {
-    margin-top: 1.4em;
-}
 
 .imagem-padrao:last-of-type {
-    margin-bottom: 7em;
+    margin-bottom: 4em;
 }
