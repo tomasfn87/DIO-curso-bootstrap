@@ -27,3 +27,7 @@ body {
 .imagem-padrao:last-of-type {
     margin-bottom: 4em;
 }
+
+#nav-inicio {
+    margin: 0 0 1em 30em;
+}
