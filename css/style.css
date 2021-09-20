@@ -1,0 +1,54 @@
+body {
+    background-color: #333;
+    color: #999;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.padrao {
+    margin: 0.5em 2em;
+}
+
+.imagem-padrao {
+    width: 540px;
+    padding: 0.5em;
+    height: 100vh;
+    background-color: #252525;
+}
+
+.imagem-padrao-titulo {
+    margin: 2em 1em 0.8em 1em;
+    font-family: monospace;
+}
+
+.imagem-padrao p {
+    margin: 0.5em 0.5em;
+    padding: 0 1em;
+}
+
+
+.imagem-padrao:last-of-type {
+    margin-bottom: 4em;
+}
+
+#inicio > * {
+    background-color: #252525;
+}
+
+.rotate90 {  
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);  
+    -ms-transform: rotate(90deg);  
+    -o-transform: rotate(90deg);  
+    transform: rotate(90deg);  
+  }
+
+  .proximo {
+      float: right;
+      margin: 5vh 5vw 0 0;
+      opacity: 65%;
+  }
+
+  .proximo:hover {
+    opacity: 100%;
+}
