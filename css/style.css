@@ -56,4 +56,9 @@ body {
   .proximo {
       float: right;
       margin: 5vh 5vw 0 0;
+      opacity: 65%;
   }
+
+  .proximo:hover {
+    opacity: 100%;
+}
