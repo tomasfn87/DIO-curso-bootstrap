@@ -36,19 +36,19 @@ body {
 }
 
 .rotate90 {  
-    -webkit-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);  
     -moz-transform: rotate(90deg);  
     -ms-transform: rotate(90deg);  
     -o-transform: rotate(90deg);  
     transform: rotate(90deg);  
   }
 
-  .proximo {
+.proximo {
       float: right;
       margin: 5vh 5vw 0 0;
       opacity: 65%;
   }
 
-  .proximo:hover {
+.proximo:hover {
     opacity: 100%;
 }
