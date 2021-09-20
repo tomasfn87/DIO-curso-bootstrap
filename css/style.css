@@ -1,6 +1,8 @@
 body {
     background-color: #333;
     color: #999;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .padrao {
@@ -29,5 +31,6 @@ body {
 }
 
 #nav-inicio {
-    margin: 0 0 1em 30em;
+    margin-bottom: 3vh;
+    float: right;
 }
