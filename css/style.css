@@ -34,4 +34,9 @@ body {
 #nav-inicio {
     margin-bottom: 3vh;
     float: right;
+    opacity: 65%;
+}
+
+#nav-inicio:hover {
+    opacity: 100%;
 }
