@@ -21,6 +21,10 @@ body {
     opacity: 100%;
 }
 
+.nav-icon {
+    height: 1.4em;
+}
+
 .bloco { /* container de titulo, imagem, texto, nav */
     margin: 1.6em auto;
     padding: 0 auto;
