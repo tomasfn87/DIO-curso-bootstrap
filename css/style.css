@@ -18,7 +18,7 @@ body {
 
 .bloco { /* container de titulo, imagem, texto, nav */
     background-color: #252525;
-    min-height: 85vh;
+    min-height: 82vh;
     height: fit-content;
     padding: 0 3.5vw 1.5vh 3.5vw;
     min-width: min-content;
@@ -34,20 +34,24 @@ body {
 
 .bloco-conteudo { /* imagem, texto, nav */
     min-width: 280px;
-    width: 24em;
+    width: fit-content;
+    max-width: 95vw;
     margin: 0 auto;
 }
 
 .imagem { /* imagem */
-    min-width: 12vw;
-    width: 350px;
+    min-width: 250px;
+    width: 400px;
+    max-width: 800px;
     padding-bottom: .9vh;
 }
 
 .bloco-conteudo p { /* texto */
-    padding: 4vh 1.5vw;
-    text-align: justify;
-    width: inherit;
+    padding: 1vh 1vw 0 1vw;
+    text-align: center;
+    min-width: 12vw;
+    width: 400px;
+    max-width: 800px;
     font-size: 1em;
     height: 15vh;
 }
