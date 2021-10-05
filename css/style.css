@@ -8,6 +8,15 @@ body {
     background-color: #252525;
 }
 
+.navbar {
+    padding: 0;
+}
+
+.nav-itens {
+    min-height: fit-content;
+    height: 3.8em;
+}
+
 .bloco-navbar {
     max-width: 75vw;
     width: inherit;
