@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Digital Innovation One - Bootstrap</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
@@ -14,7 +14,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://digitalinnovation.one/"
                 target="_blank">
-                    <img src="images/logo-dio.png" height="32px">
+                    <img src="images/logo-dio.png" height="33px"
+                    class="navbar-logo">
                 </a>
                 <div class="collapse navbar-collapse" 
                 id="navbarSupportedContent">
@@ -43,68 +44,143 @@
                 </div>
             </div>
         </nav>
+
         <section id="agilidade">
-            <div class="container imagem-padrao">
-                <h1 class="imagem-padrao-titulo">Agilidade</h1>
-                <img class="padrao" src="images/desk1.jpg" height="300px">
-                <p>
-                    Você precisa de serviços de qualidade num mundo cada mais 
-                    competitivo, onde as empresas e os profissionais precisam
-                    manter-se o mais  atualizado possível para conseguir
-                    sobreviver?<br>
-                    <a href="#tranquilidade">
-                        <img src="images/arrow-up-7d7d7d.png" height="50px" 
-                        class="rotate90 proximo">
-                    </a>
-                </p>
+            <div class="container bloco">
+                <h1 class="bloco-titulo">Agilidade</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded"
+                            src="images/1esq-01-desk1.jpg">
+                            <p>
+                                Você precisa de serviços confiáveis num mundo
+                                cada mais dinâmico e competitivo?
+                            </p>
+                        </div>
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/2dir-01-team1.jpg">
+                            <p>
+                                Onde as empresas e os profissionais precisam
+                                manter-se o mais atualizado possível para 
+                                conseguir sobreviver?
+                            </p>
+                            <a href="#tranquilidade">
+                                <img src="images/arrow-up-7d7d7d.png"
+                                class="rotate90 proximo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section id="tranquilidade">
-            <div class="container imagem-padrao">
-                <h1 class="imagem-padrao-titulo">Tranquilidade</h1>
-                <img class="padrao" src="images/desk2.jpg" height="300px">
-                <p>
-                    Fique tranquilo, pois nós oferecemos os melhores serviços no
-                    desenvolvimento de Sites e Apps, para o seu negócio ficar com
-                    a cara do século XXI, facilitando a sua vida e a dos seus
-                    clientes!<br>
-                    <a href="#interatividade">
-                        <img src="images/arrow-up-7d7d7d.png" height="50px"
-                        class="rotate90 proximo">
-                    </a>
-                </p>
+            <div class="container bloco">
+                <h1 class="bloco-titulo">Tranquilidade</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/1esq-02-app2.jpg">
+                            <p>
+                                Fique tranquilo, pois nós oferecemos os
+                                melhores serviços no desenvolvimento de Sites
+                                e Apps!
+                            </p>
+                            <a href="#agilidade">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="rotate-90 anterior">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/2dir-02-desk3.jpg">
+                            <p>
+                                Para o seu negócio ficar com a cara do século
+                                XXI, facilitando a sua vida e a dos seus
+                                clientes!
+                            </p>
+                            <a href="#interatividade">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="rotate90 proximo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section id="interatividade">
-            <div class="container imagem-padrao">
-                <h1 class="imagem-padrao-titulo">Interatividade</h1>
-                <img class="padrao" src="images/app1.jpg" height="300px">
-                <p>
-                    Criamos Sites e Aplicações Web na medida para o seu
-                    negócio. Se necessário, faremos o <i>setup</i> de APIs
-                    para interação do seu <i>business</i> com outros produtos digitais!
-                    <a href="#confiabilidade">
-                        <img src="images/arrow-up-7d7d7d.png" height="50px"
-                        class="rotate90 proximo">
-                    </a>
-                </p>
+            <div class="container bloco">
+                <h1 class="bloco-titulo">Interatividade</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/1esq-03-app1.jpg">
+                            <p>
+                                Criamos Sites e Aplicações Web na medida para
+                                o seu negócio!
+                            </p>
+                            <a href="#tranquilidade">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="rotate-90 anterior">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/2dir-03-code1.jpg">
+                            <p>
+                                Se necessário, faremos o <i>setup</i> de APIs
+                                para interação do seu <i>business</i> com 
+                                outros produtos digitais!
+                            </p>
+                            <a href="#confiabilidade">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="rotate90 proximo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section id="confiabilidade">
-            <div class="container imagem-padrao">
-                <h1 class="imagem-padrao-titulo">Confiabilidade</h1>
-                <img class="padrao" src="images/cloud1.jpg" height="300px">
-                <p>
-                    Migramos seu site ou aplicativo para plataformas de <i>Cloud
-                    Computing</i>, reduzindo seu custo com infraestrutura e
-                    entregando serviços de melhor qualidade e maior
-                    disponibilidade!<br>
-                    <a href="#inicio">
-                        <img src="images/arrow-up-7d7d7d.png" height="50px"
-                        class="proximo">
-                    </a>
-                </p>
+            <div class="container bloco">
+                <h1 class="bloco-titulo">Confiabilidade</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded" 
+                            src="images/1esq-04-cloud1.jpg">
+                            <p>
+                                Migramos seu site ou aplicativo para 
+                                plataformas de <i>Cloud Computing</i>!
+                            </p>
+                            <a href="#interatividade">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="rotate-90 anterior">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 bloco-conteudo">
+                            <img class="imagem rounded"
+                            src="images/2dir-04-cloud2.jpg">
+                            <p>
+                                Reduzindo seu custo com infraestrutura e 
+                                entregando serviços de melhor qualidade e 
+                                maior disponibilidade!
+                            </p>
+                            <a href="#inicio">
+                                <img src="images/arrow-up-7d7d7d.png" 
+                                class="proximo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+        
     </body>
 </html>
