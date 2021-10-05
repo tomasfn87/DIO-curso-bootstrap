@@ -120,3 +120,17 @@ body {
 #confiabilidade .proximo {
     margin-top: 3.4em;
 }
+
+footer {
+    background-color: #252525;
+    padding: 2em 0;
+}
+
+footer a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9d9d9d;
+}
