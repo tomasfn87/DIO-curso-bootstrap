@@ -120,12 +120,14 @@ body {
 }
 
 footer {
-    background-color: #252525;
+    background-color: #444;
     padding: 7em 0 2em 0;
+    font-size: .8em ;
+    color: #999;
 }
 
 footer a {
-    color: #7d7d7d;
+    color: #888;
     text-decoration: none;
 }
 
