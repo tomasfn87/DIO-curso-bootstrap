@@ -45,9 +45,6 @@ body {
     margin: 1.6em auto;
     padding: 0 auto;
     background-color: #252525;
-    min-height: fit-content;
-    min-width: min-content;
-    width: fit-content;
     border-radius: .5em;
 }
 
@@ -57,21 +54,17 @@ body {
 }
 
 .bloco-conteudo { /* imagem, texto, nav */
-    padding:  0 auto;
-    min-width: min-content;
-    width: 26em;
+    padding: 0 auto;
     margin: 0 auto;
+    width: 26em;
 }
 
 .imagem { /* imagem */
-    min-width: 280px;
-    width: inherit;
-    max-width: 100vw;
+    max-width: inherit;
 }
 
 .bloco-conteudo p { /* texto */
     padding-top: 1.5em;
-    width: inherit;
     max-width: 95vw;
     text-align: justify;
     font-size: .92em;
