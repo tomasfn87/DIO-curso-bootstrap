@@ -1,162 +1,170 @@
 body {
-    background-color: #333;
-    color: #999;
-    overflow-x: hidden;
+  background-color: #333;
+  color: #999;
+  overflow-x: hidden;
 }
 
 /* Navbar */
 #inicio * { /* navbar */
-    background-color: #252525;
+  background-color: #252525;
 }
 
 #navbar-main {
-    margin: 0;
-    width: 100vw;
+  margin: 0;
+  width: 100vw;
 }
 
 .navbar {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .nav-itens {
-    min-height: fit-content;
-    height: 3.8em;
+  min-height: fit-content;
+  height: 3.8em;
 }
 
 #navbar-logo {
-    height: 3em;
-    opacity: 75%;
-    padding: .5em 0;
+  height: 3em;
+  opacity: 75%;
+  padding: .5em 0;
 }
 
 #navbar-logo:hover {
-    opacity: 100%;
+  opacity: 100%;
+}
+
+.nav-group {
+  opacity: 75%;
+}
+
+.nav-group:hover {
+  opacity: 100%;
 }
 
 .nav-icon {
-    height: 2em;
-    padding-right: .6em;
-    opacity: 45%;
+  height: 2em;
+  padding-right: .6em;
+  opacity: 85%;
 }
 
 .nav-icon:hover {
-    opacity: 100%;
+  opacity: 100%;
 }
 
 /* Conteúdo */
 
 .bloco { /* container de titulo, imagem, texto, nav */
-    margin: 1.6em auto;
-    padding: 0 auto;
-    background-color: #252525;
-    border-radius: .5em;
+  margin: 1.6em auto;
+  padding: 0 auto;
+  background-color: #252525;
+  border-radius: .5em;
 }
 
 .bloco-titulo { /* título imagens */
-    padding: 5vh 0 6vh 3vw;
-    font-family: monospace;
+  padding: 5vh 0 6vh 3vw;
+  font-family: monospace;
 }
 
 .bloco-conteudo { /* imagem, texto, nav */
-    padding: 0 auto;
-    margin: 0 auto;
-    width: 26em;
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 26em;
 }
 
 .imagem { /* imagem */
-    max-width: inherit;
+  max-width: inherit;
 }
 
 .bloco-conteudo p { /* texto */
-    padding-top: 1.5em;
-    max-width: 95vw;
-    font-size: .92em;
-    height: 6em;
+  padding-top: 1.5em;
+  max-width: 95vw;
+  font-size: .92em;
+  height: 6em;
 }
 
 .proximo { /* nav next */
-    float: right;
-    margin-top: 12vh;
-    padding-right: 3em;
-    opacity: 65%;
-    height: 6vh;
+  float: right;
+  margin-top: 12vh;
+  padding-right: 3em;
+  opacity: 65%;
+  height: 6vh;
 }
 
 .proximo:hover { /* nav next */
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .anterior { /* nav previous */
-    float: left;
-    margin-top: 12vh;
-    padding-left: 3em;
-    opacity: 65%;
-    height: 6vh;
+  float: left;
+  margin-top: 12vh;
+  padding-left: 3em;
+  opacity: 65%;
+  height: 6vh;
 }
 
 .anterior:hover { /* nav previous */
-    opacity: 100%;
+  opacity: 100%;
 }
 
 .rotate90 { /* reuse nav img with image rotation right */
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .rotate-90 { /* reuse nav img with image rotation left */
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 #confiabilidade {
-    margin-bottom: 3vh;
+  margin-bottom: 3vh;
 }
 
 #confiabilidade .proximo {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 footer {
-    background-color: #444;
-    padding: 7em 0 2em 0;
-    font-size: .8em ;
-    color: #999;
+  background-color: #444;
+  padding: 7em 0 2em 0;
+  font-size: .8em ;
+  color: #999;
 }
 
 footer a {
-    color: #888;
-    text-decoration: none;
+  color: #888;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: rgb(150, 150, 75);
+  color: rgb(150, 150, 75);
 }
 
 .soc-media {
-    margin-top: 1em;
-    padding: 1em 1.5em;
-    height: 64px;
-    opacity: 25%;
+  margin-top: 1em;
+  padding: 1em 1.5em;
+  height: 64px;
+  opacity: 25%;
 }
 
 .soc-media:first-of-type {
-    height: 58px;
+  height: 58px;
 }
 
 .soc-media:hover {
-    opacity: 35%;
+  opacity: 35%;
 }
 
 footer p {
-    line-height: .28em;
+  line-height: .28em;
 }
 
 footer p:first-of-type {
-    padding-top: 1.5em;
+  padding-top: 1.5em;
 }
