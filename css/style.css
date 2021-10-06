@@ -5,13 +5,17 @@ body {
 }
 
 /* Navbar */
-
-.container-fluid #navbar-main {
-
-}
-
 #inicio * { /* navbar */
     background-color: #252525;
+}
+
+#navbar-main {
+    margin: 0;
+    width: 100vw;
+}
+
+.navbar {
+    padding-top: 0;
 }
 
 .nav-itens {
@@ -19,16 +23,13 @@ body {
     height: 3.8em;
 }
 
-.bloco-navbar {
-    max-width: 75vw;
-    width: inherit;
-}
-
-.navbar-logo {
+#navbar-logo {
+    height: 3em;
     opacity: 75%;
+    padding: .5em 0;
 }
 
-.navbar-logo:hover {
+#navbar-logo:hover {
     opacity: 100%;
 }
 
