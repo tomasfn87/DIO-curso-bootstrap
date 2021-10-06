@@ -34,9 +34,13 @@ body {
 }
 
 .nav-icon {
-    height: 1.4em;
-    float: right;
+    height: 2em;
     padding-right: .6em;
+    opacity: 45%;
+}
+
+.nav-icon:hover {
+    opacity: 100%;
 }
 
 /* Conteúdo */
