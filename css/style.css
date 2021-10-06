@@ -133,3 +133,26 @@ footer a {
 footer a:hover {
     color: rgb(150, 150, 75);
 }
+
+.soc-media {
+    margin-top: 1em;
+    padding: 1em 1.5em;
+    height: 64px;
+    opacity: 25%;
+}
+
+.soc-media:first-of-type {
+    height: 58px;
+}
+
+.soc-media:hover {
+    opacity: 35%;
+}
+
+footer p {
+    line-height: .28em;
+}
+
+footer p:first-of-type {
+    padding-top: 1.5em;
+}
