@@ -121,7 +121,7 @@ body {
 
 footer {
     background-color: #252525;
-    padding: 2em 0;
+    padding: 7em 0 2em 0;
 }
 
 footer a {
@@ -130,5 +130,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #9d9d9d;
+    color: rgb(150, 150, 75);
 }
