@@ -80,6 +80,7 @@ body {
   max-width: 95vw;
   font-size: .92em;
   height: 6em;
+  margin-bottom: 5em;
 }
 
 .proximo { /* nav next */
