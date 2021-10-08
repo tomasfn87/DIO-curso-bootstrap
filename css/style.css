@@ -66,9 +66,8 @@ body {
 }
 
 .bloco-conteudo { /* imagem, texto, nav */
-  padding: 0 auto;
   margin: 0 auto;
-  width: 26em;
+  width: 32em;
 }
 
 .imagem { /* imagem */
@@ -128,7 +127,7 @@ body {
 }
 
 #confiabilidade .proximo {
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 footer {
